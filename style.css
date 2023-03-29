@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #c6c6c6;
+    --main-background: #1c1c1c;
+    --second-background: #1c1c1c52;
+}
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    color: var(--main-color);
+    background-color: var(--main-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    width: 26rem;
+    height: 2rem;
+    margin-top: 0.4rem;
+    border-radius: 4rem;
+    padding: 0.5rem;
+    border: 0.1rem #11580f5c solid;
+    outline: none;
+    color: var(--main-color);
+    background: #32ff2b5c;
+}
